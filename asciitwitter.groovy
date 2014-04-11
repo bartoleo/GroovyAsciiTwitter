@@ -8,8 +8,7 @@
 //@Grab(group="org.slf4j",          module="slf4j-api",      version="1.6.4")
 //@Grab(group="ch.qos.logback",     module="logback-core",   version="1.0.1")
 @Grab(group="org.twitter4j",      module="twitter4j-core", version="[3.0,)")
-@GrabResolver(name='jfiglet', root='https://github.com/lalyos/mvn-repo/raw/master/snapshots')
-@Grab(group='com.github.lalyos', module='jfiglet', version='0.0.1-SNAPSHOT' )
+@Grab(group='com.github.lalyos', module='jfiglet', version='0.0.3' )
 
 import twitter4j.*
 import twitter4j.api.*
